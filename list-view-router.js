@@ -9,6 +9,14 @@ const tasks = [
   },
 ];
 
+function validateParams(req, res, next) {
+  const { id } = req.params;
+  if (!id || isNaN(id)) {
+    return res.status(400).json({ error: "Parámetros incorrectos" });
+  }
+  next();
+}
+
 router.get("/tasks/completed", (req, res) => {
   const completedTasks = tasks.filter((task) => task.isCompleted);
   res.json(completedTasks);
