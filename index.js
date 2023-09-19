@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
+const { authenticateToken } = require("./auth");
 
 const listViewRouter = require("./list-view-router");
 const listEditRouter = require("./list-edit-router");
@@ -33,4 +34,8 @@ const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log(`Servidor iniciado en http://localhost:${PORT}`);
+});
+
+app.get("/protected", authenticateToken, (req, res) => {
+  res.json({ message: "Ruta protegida accesible" });
 });
