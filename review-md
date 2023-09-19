@@ -1,0 +1,30 @@
+¿Qué es mi producto y para qué sirve?
+Este producto es una poderosa API diseñada para administrar una lista de tareas de manera eficiente y segura. Está construido sobre una base de tecnología sólida y cumple con los estándares REST, lo que significa que es altamente confiable y fácil de integrar en diversas aplicaciones y sistemas.
+
+Funcionalidades Clave:
+A continuación, describiré las funcionalidades más importantes de nuestra API y por qué los usuarios encontrarán valor en ellas:
+
+Creación de Tareas:
+
+Nuestra API permite a los usuarios crear nuevas tareas de manera sencilla. Esto es útil para cualquier persona que necesite llevar un registro de sus tareas pendientes, ya sea en una aplicación de gestión de proyectos o una lista personal.
+Actualización de Tareas:
+
+Los usuarios pueden actualizar las tareas existentes. Esto es crucial cuando se necesita modificar detalles específicos de una tarea o marcarla como completada.
+Eliminación de Tareas:
+
+La capacidad de eliminar tareas es fundamental para mantener una lista de tareas organizada y libre de elementos obsoletos o no deseados.
+Listado de Todas las Tareas:
+
+Nuestra API proporciona una forma rápida de listar todas las tareas almacenadas. Esto es útil para tener una vista general de todas las tareas pendientes.
+Listado de Tareas Completas e Incompletas:
+
+Los usuarios pueden filtrar las tareas según su estado, ya sea completas o incompletas. Esto facilita la gestión de tareas en función de su progreso.
+Obtención de una Tarea Individual:
+
+Además de listar todas las tareas, nuestros usuarios pueden obtener detalles específicos de una tarea individual. Esto es útil cuando se necesita información detallada sobre una tarea en particular.
+Seguridad con Autenticación JWT:
+
+La seguridad es una prioridad para nosotros. Implementamos autenticación JWT (JSON Web Token) para proteger las rutas sensibles. Esto asegura que solo usuarios autorizados puedan acceder a funciones críticas.
+Manejo de Errores y Códigos de Estado HTTP:
+
+Hemos incorporado un sólido manejo de errores y códigos de estado HTTP para garantizar que los usuarios reciban respuestas claras y adecuadas en caso de problemas.
